@@ -1,0 +1,24 @@
+{
+  "name": "gereji-encryption",
+  "version": "0.0.1",
+  "description": "Encryption helper.",
+  "main": "encryption.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnjuguna/gereji-encryption.git"
+  },
+  "keywords": [
+    "encryption",
+    "client",
+    "session"
+  ],
+  "author": "David Njuguna <dnjuguna@gmail.com> (https://github.com/dnjuguna)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnjuguna/gereji-encryption/issues"
+  },
+  "homepage": "https://github.com/dnjuguna/gereji-encryption"
+}
