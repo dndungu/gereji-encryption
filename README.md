@@ -1,4 +1,4 @@
 gereji-encryption
 =================
 
-Encryption helper.
+An encryption helper for the gereji web application framework.
