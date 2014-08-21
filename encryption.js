@@ -3,8 +3,8 @@ var crypto = require('crypto');
 var algorithm = 'aes256';
 module.exports = function(){
 	return {
-		init: function(context){
-			this.key = context.get("settings").key;
+		init: function(key){
+			this.key = key;
 		},
 		encrypt : function(text){
 			var cipher = crypto.createCipher(algorithm, this.key);
