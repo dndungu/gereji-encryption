@@ -5,6 +5,7 @@ module.exports = function(){
 	return {
 		init: function(key){
 			this.key = key;
+			return this;
 		},
 		encrypt : function(text){
 			var cipher = crypto.createCipher(algorithm, this.key);
